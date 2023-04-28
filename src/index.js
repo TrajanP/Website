@@ -11,8 +11,10 @@ import About from "./Pages/About.js";
 import Faq from "./Pages/Faq.js";
 import Portfolio from "./Pages/Portfolio.js";
 import Contact from "./Pages/Contact.js";
+import HashRouter from "react-router-dom";
 
-const router = createBrowserRouter([
+// const router = createBrowserRouter([
+  const router = createHashRouter([
   {
     path: "/website/",
     element: <Home />,
