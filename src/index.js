@@ -14,23 +14,23 @@ import Contact from "./Pages/Contact.js";
 
 const router = createBrowserRouter([
   {
-    path: "/professional-portfolio/",
+    path: "/website/",
     element: <Home />,
   },
   {
-    path: "/professional-portfolio/about",
+    path: "/website/about",
     element: <About />,
   },
   {
-    path: "/professional-portfolio/faq",
+    path: "/website/faq",
     element: <Faq />,
   },
   {
-    path: "/professional-portfolio/portfolio",
+    path: "/website/portfolio",
     element: <Portfolio />,
   },
   {
-    path: "/professional-portfolio/contact",
+    path: "/website/contact",
     element: <Contact />,
   },
 ]);
