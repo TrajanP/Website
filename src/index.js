@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 //Component Imports
@@ -16,23 +17,23 @@ import HashRouter from "react-router-dom";
 // const router = createBrowserRouter([
   const router = createHashRouter([
   {
-    path: "/website/",
+    path: "/Website/",
     element: <Home />,
   },
   {
-    path: "/website/about",
+    path: "/Website/about",
     element: <About />,
   },
   {
-    path: "/website/faq",
+    path: "/Website/faq",
     element: <Faq />,
   },
   {
-    path: "/website/portfolio",
+    path: "/Website/portfolio",
     element: <Portfolio />,
   },
   {
-    path: "/website/contact",
+    path: "/Website/contact",
     element: <Contact />,
   },
 ]);
