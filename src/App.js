@@ -14,13 +14,13 @@ function App() {
 return (
   <div>
       {/* <UsersContextProvider>  */}
-        <Router basename="/Website/"> 
+        <Router basename="/website/"> 
           <Routes>
-            <Route exact path="/Website/" element={<Home/>}/>
-            <Route path="/Website/about" element = {<About/>}/>
-            <Route exact path="/Website/portfolio" element = {<Portfolio/>}/>
-            <Route exact path="/Website/faq" element = {<Faq/>}/>
-            <Route exact path="/Website/contact" element = {<Contact/>}/>
+            <Route exact path="/website/" element={<Home/>}/>
+            <Route path="/website/about" element = {<About/>}/>
+            <Route exact path="/website/portfolio" element = {<Portfolio/>}/>
+            <Route exact path="/website/faq" element = {<Faq/>}/>
+            <Route exact path="/website/contact" element = {<Contact/>}/>
           </Routes>
         </Router>
       {/* </UsersContextProvider> */}
