@@ -14,9 +14,9 @@ function App() {
 return (
   <div>
       {/* <UsersContextProvider>  */}
-        <Router> 
+        <Router basename="/Website/"> 
           <Routes>
-            <Route exact path="/Website" element={<Home/>}/>
+            <Route exact path="/Website/" element={<Home/>}/>
             <Route path="/Website/about" element = {<About/>}/>
             <Route exact path="/Website/portfolio" element = {<Portfolio/>}/>
             <Route exact path="/Website/faq" element = {<Faq/>}/>
