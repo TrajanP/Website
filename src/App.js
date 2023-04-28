@@ -1,7 +1,6 @@
 //Library Imports
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-// import { UsersContextProvider } from "./context/UsersContext";
 
 //Component Imports
 import Home from "./Pages/Home.js";
@@ -12,18 +11,16 @@ import Contact from "./Pages/Contact.js";
 
 function App() {
 return (
-  <div>
-      {/* <UsersContextProvider>  */}
-        <Router basename="/website/"> 
+    <div>
+        <Router basename="/"> 
           <Routes>
-            <Route exact path="/website/" element={<Home/>}/>
-            <Route path="/website/about" element = {<About/>}/>
-            <Route exact path="/website/portfolio" element = {<Portfolio/>}/>
-            <Route exact path="/website/faq" element = {<Faq/>}/>
-            <Route exact path="/website/contact" element = {<Contact/>}/>
+            <Route exact path="/" element={<Home/>}/>
+            <Route path="/about" element = {<About/>}/>
+            <Route exact path="/portfolio" element = {<Portfolio/>}/>
+            <Route exact path="/faq" element = {<Faq/>}/>
+            <Route exact path="/contact" element = {<Contact/>}/>
           </Routes>
         </Router>
-      {/* </UsersContextProvider> */}
     </div>
 );
 }

@@ -18,14 +18,14 @@ const Header = () => {
             <nav style={{marginTop: "25px"}}>
                 <ul className={css.navLinks}>
                     <Link to="/" Home />
-                    <li><h3><Link to="/website/"> <IoEarthSharp style={{marginBottom: "3px"}}/> Home </Link></h3></li>
-                    <li><h3><Link to="/website/about"> <BsPersonCircle style={{marginBottom: "3px"}}/> About Me</Link></h3></li>
-                    <li><h3><Link to="/website/portfolio"> <AiOutlineFileSearch style={{marginBottom: "3px", height: "18px"}}/> Portfolio </Link></h3></li>
-                    <li><h3><Link to="/website/faq"> <BsQuestionCircleFill style={{marginBottom: "3px", height: "16px"}}/> FAQ </Link></h3></li>
-                    <li><h3><Link to="/website/dashboard"> <AiOutlineDashboard style={{marginBottom: "3px", height: "40px"}}/> Dashboard </Link></h3></li>
+                    <li><h3><Link to="/"> <IoEarthSharp style={{marginBottom: "3px"}}/> Home </Link></h3></li>
+                    <li><h3><Link to="/about"> <BsPersonCircle style={{marginBottom: "3px"}}/> About Me</Link></h3></li>
+                    <li><h3><Link to="/portfolio"> <AiOutlineFileSearch style={{marginBottom: "3px", height: "18px"}}/> Portfolio </Link></h3></li>
+                    <li><h3><Link to="/faq"> <BsQuestionCircleFill style={{marginBottom: "3px", height: "16px"}}/> FAQ </Link></h3></li>
+                    <li><h3><Link to="/dashboard"> <AiOutlineDashboard style={{marginBottom: "3px", height: "40px"}}/> Dashboard </Link></h3></li>
                 </ul>
             </nav>
-            <a className={css.contactBtn} href="#"><button><Link to="/website/contact"> Contact </Link></button></a>
+            <a className={css.contactBtn} href=""><button><Link to="/contact"> Contact </Link></button></a>
         </div>
     );
 };

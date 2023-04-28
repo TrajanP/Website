@@ -15,6 +15,7 @@ import Contact from "./Pages/Contact.js";
 import HashRouter from "react-router-dom";
 import App from './App';
 
+//Below code was used for React-Router-Dom V6
 // const router = createBrowserRouter([
 //   const router = createHashRouter([
 //   {
