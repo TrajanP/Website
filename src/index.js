@@ -13,33 +13,41 @@ import Faq from "./Pages/Faq.js";
 import Portfolio from "./Pages/Portfolio.js";
 import Contact from "./Pages/Contact.js";
 import HashRouter from "react-router-dom";
+import App from './App';
 
 // const router = createBrowserRouter([
-  const router = createHashRouter([
-  {
-    path: "/Website/",
-    element: <Home />,
-  },
-  {
-    path: "/Website/about",
-    element: <About />,
-  },
-  {
-    path: "/Website/faq",
-    element: <Faq />,
-  },
-  {
-    path: "/Website/portfolio",
-    element: <Portfolio />,
-  },
-  {
-    path: "/Website/contact",
-    element: <Contact />,
-  },
-]);
+//   const router = createHashRouter([
+//   {
+//     path: "/Website/",
+//     element: <Home />,
+//   },
+//   {
+//     path: "/Website/about",
+//     element: <About />,
+//   },
+//   {
+//     path: "/Website/faq",
+//     element: <Faq />,
+//   },
+//   {
+//     path: "/Website/portfolio",
+//     element: <Portfolio />,
+//   },
+//   {
+//     path: "/Website/contact",
+//     element: <Contact />,
+//   },
+// ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <React.StrictMode>
+//     <RouterProvider router={router} />
+//   </React.StrictMode>
+// );
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 );
